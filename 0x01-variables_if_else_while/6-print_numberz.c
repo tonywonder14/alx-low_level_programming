@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: Print all single digit number of base 10
@@ -13,8 +12,9 @@ int main(void)
 	while (c < 10)
 	{
 		putchar(48 + c);
-		CH;
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
