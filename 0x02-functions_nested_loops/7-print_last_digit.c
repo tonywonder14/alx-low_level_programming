@@ -11,6 +11,7 @@ int print_last_digit(int n)
 
 	if (ld < 0)
 		ld *= -1;
+
 	_putcahr(ld + '0');
 
 	return (0);
