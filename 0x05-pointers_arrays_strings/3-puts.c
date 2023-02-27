@@ -6,7 +6,7 @@
  * Return: void
  */
 
-int _putchar(char c)
+void _putchar(char *str)
 {
 	for (; *str != '\0'; str++)
 	{
