@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stringe.h"
 
 /**
  * _puts - Prints a string
@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void _puts(char *str)
+int _putchar(char c)
 {
 	for (; *str != '\0'; str++)
 	{
